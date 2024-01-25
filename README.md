@@ -15,6 +15,6 @@ To enhance the perception of moving vehicles, an instance segmentation step is i
 The final step involves transforming LiDAR points to pixels in the camera frame. The to_pixels() function takes 3D LiDAR points, the intrinsic matrix of the camera, and a transformation from LiDAR frame to camera frame. It returns the pixel values corresponding to the LiDAR points and provides depth information by transforming to the camera frame.
 
 **Notes**<br />
-The implementation is designed for autonomous driving scenarios, particularly for off-road driving datasets like RELLIS-3D.<br />
+The implementation is designed for autonomous driving scenarios.<br />
 Instance segmentation is crucial for identifying individual moving vehicles on the road.<br />
 LiDAR to camera transformations enable a comprehensive understanding of the environment by aligning point cloud data with camera images.
